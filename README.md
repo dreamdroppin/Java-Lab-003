@@ -46,6 +46,25 @@ Enter a temperature in Celsius: 24
 * Be careful not to use integer division!
 * Format specifiers would be a great choice for #4!
 
+## Part 3: Seconds to Time Converter
+
+**Objective:**
+Write a Java program that converts a total number of seconds to hours, minutes, and seconds.
+
+**Steps:**
+1. Prompt the user for input.
+2. Read an integer from the keyboard (total number of seconds).
+3. Calculate the result using the modulus operator.
+4. Use printf to display the output in the format: "5000 seconds = 1 hours, 23 minutes, and 20 seconds".
+
+```mathematica
+Enter a total number of seconds: 5000
+5000 seconds = 1 hours, 23 minutes, and 20 seconds
+```
+
+**Hint:**
+* The modulus operator is the remainder operator and will simplify the calculation.
+
 ### Submission
 Follow these steps for submission:
 1. Create a Feature01 branch of your code if you haven't already.
